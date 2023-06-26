@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Browser } from '@capacitor/browser';
 
 @Component({
   selector: 'app-tab1',
@@ -9,4 +10,10 @@ export class Tab1Page {
 
   constructor() {}
 
+  async onClick() {
+    const options = {
+      url: ''
+    };
+    await Browser.open(options);
+  }
 }
