@@ -1,0 +1,7 @@
+{
+  "name": "IonicPdfViewer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
