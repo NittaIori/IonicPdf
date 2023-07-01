@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Capacitor Browser
+      Native Plugin
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,12 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Capacitor Browser</ion-title>
+      <ion-title size="large">Native Plugin</ion-title>
     </ion-toolbar>
   </ion-header>
   
-  <ion-button (click)="onClick()">click</ion-button>
+  <ion-button (click)="onClickCapacitorBrowser()">CapacitorBrowser</ion-button>
+  <ion-button (click)="onClickInAppBrowser()">InAppBrowser</ion-button>
+  <ion-button (click)="onClickFileOpener()">FileOpener</ion-button>
+  <ion-button (click)="onClickDocumentViewer()">DocumentViewer</ion-button>
 </ion-content>

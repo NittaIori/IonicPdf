@@ -7,11 +7,14 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab3PageRoutingModule } from './tab3-routing.module';
 
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
+    NgxExtendedPdfViewerModule,
     ExploreContainerComponentModule,
     Tab3PageRoutingModule
   ],
